@@ -1,5 +1,6 @@
 <?php
 include("../connection.php");
+
 if(isset($_REQUEST['country_id']))
 { 	
 	echo $country_id= $_REQUEST['country_id'];
