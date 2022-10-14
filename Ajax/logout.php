@@ -1,0 +1,9 @@
+<?php
+include("dbconnect.php");
+//unset($_SESSION['username']);
+session_destroy();
+print_r($_SESSION);
+?>
+<script>
+    location="index.php";
+</script>
